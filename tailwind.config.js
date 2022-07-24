@@ -4,7 +4,13 @@ module.exports = {
   ],
   important: true,
   theme: {
-    extend: {},
+    colors: {
+      'accent': '#6B11FF',
+      'white': '#ffffff',
+      'black': '#000000',
+      'red': '#F65555',
+      'green': '#82C976'
+    },
   },
   plugins: [],
 }

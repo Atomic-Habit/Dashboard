@@ -1,0 +1,57 @@
+
+// Article's style \\
+.article {
+    max-width: 650px;
+    margin: auto;
+    padding: 0 30px;
+  
+    img {
+      width: 100%;
+    }
+  
+    h1, h2, h3 {
+      margin-top: 2.37em;
+    }
+  
+    h1 {
+      font-size: 32px;
+      font-weight: 900;
+    }
+  
+    h3, h2 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  
+    p {
+      margin-top: 0.86em;
+      font-size: 20px;
+      letter-spacing: 0.03em;
+      line-height: 32px;
+    }
+  
+    hr {
+      margin: 2.37em auto;
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .article {
+    
+      h1, h2, h3 {
+        margin-top: 2.07em;
+      }
+    
+      h3, h2 {
+        font-size: 18px;
+      }
+    
+      p {
+        margin-top: 0.67em;
+        font-size: 18px;
+        letter-spacing: 0.04em;
+        line-height: 28px;
+      }
+    }
+  }

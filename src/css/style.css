@@ -1,0 +1,51 @@
+.article {
+  max-width: 650px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.article img {
+  width: 100%;
+}
+
+.article h1, .article h2, .article h3 {
+  margin-top: 2.37em;
+}
+
+.article h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.article h3, .article h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.article p {
+  margin-top: 0.86em;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+}
+
+.article hr {
+  margin: 2.37em auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 550px) {
+  .article h1, .article h2, .article h3 {
+    margin-top: 2.07em;
+  }
+  .article h3, .article h2 {
+    font-size: 18px;
+  }
+  .article p {
+    margin-top: 0.67em;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
